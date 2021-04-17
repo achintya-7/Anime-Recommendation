@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-rating = pd.read_csv("rating.csv")
+
 anime = pd.read_csv("anime.csv")
 
 items = np.array(anime.genre)
